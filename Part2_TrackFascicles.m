@@ -47,8 +47,8 @@ end
 [Sub,id,slip_side,slip_timing,iter]=nameParser(file);
 
 %Loads in RF_MasterStruct for selected sub
-addpath('Z:\Dropbox (GaTech)\RF\Analysis\OpenSim\GenFiles')
-load(['Z:\Dropbox (GaTech)\RF\Analysis\OpenSim\GenFiles\RF_MasterStruct_' Sub(4:5) '.mat'])
+addpath('Z:\Dropbox (GaTech)\RF\RF_US_DL\KeyFrameFiles')
+load(['Z:\Dropbox (GaTech)\RF\RF_US_DL\KeyFrameFiles\RF_MasterStruct_' Sub(4:5) '.mat'])
 
 
 try
