@@ -18,11 +18,11 @@ A GUI-based Matlab application was developed to allow for streamlined visualizat
 
 BaseModel - Deep neural net from Cronin 2020 (doi.org/10.48550/arXiv.2009.04790, github.com/njcronin/DL_Track/tree/master/models) that has been adapted for use with Matlab's deep learning tools.
 
-Data
+Data:
 
   RawImages - The raw ultrasound images used for training the aponeurosis neural nets
   
-  Resized
+  Resized:
   
   CroppedResizedImgs - Cropped raw ultrasound images resized to be compatible with deep learning 
   
